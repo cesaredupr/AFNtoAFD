@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autómatas</title>
+    
+    <link rel="stylesheet" href="archivo.css">
+</head>
+<body>
+
+    <div class="container">
+        <div id="areaCargarArchivo">
+            Arrastra aquí un archivo de texto (.txt) 
+        </div>
+
+        <div>
+            <h3>Despliegue de Archivo txt</h3>
+            <pre id="contenidoArchivo">
+                
+            </pre>
+        </div>
+
+        <div class="vectores-y-matriz">
+            <div class="vectores">
+                <h4>Vectores</h4>
+                <table id="tablaVectores">
+                    <thead>
+                        <tr>
+                            <th>Q</th>
+                            <th>Σ</th>
+                            <th>A</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="matriz">
+                <h4>Matriz_AFN</h4>
+                <table id="matrizTransiciones">
+                    <thead>
+                        <tr id="encabezadoTransiciones">
+                            <th>Estado</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="matriz">
+                <h4>Automata finito determinista</h4>
+                <pre id="infoAFD">
+                    
+                </pre>
+            </div>
+
+            <div class="matriz">
+                <h4>Matriz_AFD</h4>
+                <table id="matrizAFD">
+                    <thead id="encabezadoAFD">
+                        <tr>
+                            <th>Estado</th>
+                            <th>a</th>  
+                            <th>b</th>  
+                            <th>Composición</th> 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <script src="automatas.js"></script>
+
+</body>
+</html>

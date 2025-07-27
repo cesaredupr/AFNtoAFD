@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+h3, h4 {
+    margin-bottom: 10px;
+    color: rgb(65, 85, 136);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.vectores-y-matriz {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+.vectores {
+    width: 45%;
+}
+
+.vectores tbody {
+    display: none; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ccc;
+    white-space: nowrap; 
+}
+
+th {
+    background-color: rgb(65, 85, 136);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contenidoArchivo {
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    width: 100%;
+    max-width: 800px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #ccc;
+}
+
+#areaCargarArchivo {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    border: 2px dashed #ccc;
+    text-align: center;
+    color: #999;
+    cursor: pointer;
+}
+
+#areaCargarArchivo.dragover {
+    border-color: #333;
+    color: #333;
+}
+
+#infoAFD {
+    background-color: #f9f9f9; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    font-family: monospace; 
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    color: #333; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px; 
+}
